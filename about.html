@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Bootstrap</title>
+        <title>About</title>
         <link
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -32,11 +32,14 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
@@ -45,47 +48,37 @@
                 </div>
             </nav>
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner embed-responsive embed-responsive-21by9">
-                    <div class="carousel-item active embed-responsive-item" style="background-image: url(images/slider-1.jpg);"></div>
-                    <div class="carousel-item embed-responsive-item" style="background-image: url(images/slider-2.jpg);"></div>
-                    <div class="carousel-item embed-responsive-item" style="background-image: url(images/slider-3.jpg);"></div>
+            <div class="container">
+                <h1>About</h1>
+                <div class="row">
+                    <div class="col-md order-md-1">
+                        <p>
+                            Morbi elementum ullamcorper suscipit. Duis mattis convallis nisi, a ornare erat laoreet id. Sed tincidunt pharetra 
+                            nulla, at volutpat ligula placerat a. Integer eget nunc nunc. 
+                        </p>
+                        <p>
+                            Nam tincidunt, sapien nec congue porta, tellus risus 
+                            ullamcorper mi, a rutrum justo eros pretium libero. Nullam vel enim id mauris eleifend finibus et ac orci. Aliquam 
+                            metus massa, aliquam quis arcu sit amet, consectetur faucibus urna. Suspendisse massa diam, efficitur eu massa 
+                            euismod, pretium lacinia magna. Donec mi orci, sollicitudin in luctus a, varius eget massa. Morbi libero ipsum, 
+                            semper a ultricies sed, tempor lacinia enim. Suspendisse quis efficitur lectus. Praesent pulvinar placerat felis 
+                            vitae faucibus. Nullam et vestibulum velit.
+                        </p>
+                    </div>
+                    <div class="col-md order-md-2">
+                        <ul class="list-group">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                          </ul>
+                    </div>
                 </div>
             </div>
 
-            <div class="container">
-                <h1 class="home">SERIOUSLY, BUY MORE THINGS</h1>
-                <div class="row">
-                    <div class="col-md home-block">
-                        <h3>Heading</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                        <a href="products.html" class="btn btn-primary">View more</a>
-                    </div>
-                    <div class="col-md home-block">
-                        <h3>Heading</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat efficitur eleifend. Etiam sit amet turpis dolor. Maecenas facilisis semper est sit amet facilisis.
-                            Aliquam turpis enim, euismod in tincidunt non, dapibus quis dolor.
-                        </p>
-                        <a href="products.html" class="btn btn-primary">View more</a>
-                    </div>
-                    <div class="col-md home-block">
-                        <h3>Heading</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat efficitur eleifend. Etiam sit amet turpis dolor. Maecenas facilisis semper est sit amet facilisis.
-                            Aliquam turpis enim, euismod in tincidunt non, dapibus quis dolor.
-                        </p>
-                        <a href="products.html" class="btn btn-primary">View more</a>
-                    </div>
-                </div>
-            </div>
         </div>
         <footer>
             <div><i class="fa fa-twitter"></i> <i class="fa fa-vimeo"></i></div>
